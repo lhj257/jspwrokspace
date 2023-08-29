@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.awt.print.Book"/>
+    <fullyQualifiedTypeName name="dao.BookRepository"/>
+    <fullyQualifiedTypeName name="dto.Book"/>
+    <fullyQualifiedTypeName name="dao.ProductRepository"/>
+</qualifiedTypeNameHistroy>

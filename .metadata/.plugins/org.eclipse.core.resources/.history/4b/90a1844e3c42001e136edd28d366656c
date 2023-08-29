@@ -1,0 +1,11 @@
+package ch04.com.dao;
+
+public class GuGuDan {
+	public int process(int n) {
+		int total = 0;
+		for(int i=1;i<10;i++) {
+			return total=n*i;
+		}
+		return total;
+	}
+}
