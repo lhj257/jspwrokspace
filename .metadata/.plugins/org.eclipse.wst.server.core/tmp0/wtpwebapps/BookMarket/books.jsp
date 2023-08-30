@@ -1,3 +1,4 @@
+<%@page import="dao.BookRepository"%>
 <%@page import="dto.Book"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -21,6 +22,7 @@
 		</div>
 	</div>
 	<%
+		BookRepository dao=BookRepository.getInstance();
 		ArrayList<Book> listOfBooks = bookDAO.getAllBook();
 	%>
 	<div class="container">

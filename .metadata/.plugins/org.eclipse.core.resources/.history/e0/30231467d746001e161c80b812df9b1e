@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%
+	request.setCharacterEncoding("UTF-8");
+	
+	String bookId=request.getParameter("bookId");
+	String name=request.getParameter("name");
+	String unitPrice=request.getParameter("unitPrice");
+	String author=request.getParameter("author");
+	String description=request.getParameter("description");
+	String publisher=request.getParameter("publisher");
+	String category=request.getParameter("category");
+	String unitsInStock=request.getParameter("unitsInStock");
+	String totalPages=request.getParameter("totalPages");
+	String releaseDate=request.getParameter("releaseDate");
+	String condition=request.getParameter("condition");
+%>

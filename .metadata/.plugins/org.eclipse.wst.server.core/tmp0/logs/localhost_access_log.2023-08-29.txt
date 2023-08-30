@@ -211,3 +211,5 @@
 0:0:0:0:0:0:0:1 - - [29/Aug/2023:16:21:04 +0900] "GET /JSPBook/ch09/jstl_fmt01.jsp HTTP/1.1" 200 337
 0:0:0:0:0:0:0:1 - - [29/Aug/2023:16:21:04 +0900] "GET /JSPBook/ch09/jstl_fmt01.jsp HTTP/1.1" 200 337
 0:0:0:0:0:0:0:1 - - [29/Aug/2023:16:21:24 +0900] "GET /JSPBook/ch09/jstl_fmt01.jsp HTTP/1.1" 200 337
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:16:38:51 +0900] "GET /JSPBook/ch09/jstl_fmt02.jsp HTTP/1.1" 200 290
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:16:39:21 +0900] "GET /JSPBook/ch09/jstl_fmt02.jsp HTTP/1.1" 200 293

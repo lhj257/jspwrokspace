@@ -7,7 +7,11 @@ import dto.Book;
 
 public class BookRepository {
 	private ArrayList<Book> listOfBooks = new ArrayList<>();
+	private static BookRepository instance = new BookRepository();
 	
+	public static BookRepository getInstance() {
+		return instance;
+	}
 	public BookRepository(){
 		Book html = new Book();
 		html.setBookId("ISBN1234");
@@ -68,6 +72,10 @@ public class BookRepository {
 			}
 		}
 		return bookById;
+	}
+	
+	public void addBook(Book book) {
+		listOfBooks.add(book);
 	}
 }
 
