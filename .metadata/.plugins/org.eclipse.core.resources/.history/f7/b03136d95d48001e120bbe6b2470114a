@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+function CheckAddBook(){
+	var bookId=document.getElementById("bookId");
+	var name=document.getElementById("name");
+	var unitPrice=document.getElementById("unitPrice");
+	var unitsInStock=document.getElementById("unitsInStock");
+	
+}

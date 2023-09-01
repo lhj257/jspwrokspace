@@ -9,7 +9,6 @@
 <%
 	request.setCharacterEncoding("UTF-8");
 	
-	String filename= "";
 	String realFolder="C:\\upload";
 	int maxSize = 5*1024*1024;
 	String encType="utf-8";
@@ -65,7 +64,7 @@
 	newBook.setCategory(category);
 	newBook.setUnitsInStock(stock);
 	newBook.setCondition(condition);
-	newBook.setFilename(filename);
+	newBook.setFilename(fileName);
 	
 	BookRepository dao=BookRepository.getInstance();
 	dao.addBook(newBook);

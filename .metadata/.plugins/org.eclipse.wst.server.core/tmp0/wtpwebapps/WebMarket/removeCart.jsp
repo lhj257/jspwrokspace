@@ -10,12 +10,12 @@ if (id == null || id.trim().equals("")) {
 	return;
 }
 
-ProductRepository dao = ProductRepository.getInstance();
+/* ProductRepository dao = ProductRepository.getInstance();
 
 Product product = dao.getProductById(id);
 if (product == null) {
 	response.sendRedirect("exceptionNoProductId.jsp");
-}
+} */
 
 ArrayList<Product> cartList = (ArrayList<Product>) session.getAttribute("cartlist");
 Product goodsQnt = new Product();

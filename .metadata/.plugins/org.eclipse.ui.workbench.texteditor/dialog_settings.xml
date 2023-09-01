@@ -6,8 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Shipping_name"/>
+		<item key="selection" value="update"/>
 		<list key="findhistory">
+			<item value="update"/>
+			<item value="edit"/>
+			<item value="id"/>
+			<item value="p_id"/>
+			<item value="P_id"/>
+			<item value="bookImage"/>
 			<item value="Shipping_name"/>
 			<item value="Shippping_name"/>
 			<item value="Shipping_shippingDate"/>
@@ -20,8 +26,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1130"/>
-		<item key="DIALOG_Y_ORIGIN" value="298"/>
+		<item key="DIALOG_X_ORIGIN" value="1230"/>
+		<item key="DIALOG_Y_ORIGIN" value="96"/>
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

@@ -1,0 +1,6 @@
+/**
+ * 
+ */
+function CheckAddBook(){
+	var bookId=document.getElementById("bookId");
+}
